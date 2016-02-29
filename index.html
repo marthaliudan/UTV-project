@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body >
+<div class="wrapper">
+<div class="header">
+  <ul class="menu">
+      <li><a href="../app/index.html"><img src="resources/pic/homepage.png"  alt="主页" /></a></li>
+      <li><a href="../app/view1/view1.html"><img src="resources/pic/liveshow1.png"  alt="直播" /></a></li>
+      <li><a href="../app/view2/view2.html"><img src="resources/pic/channel.png"  alt="点播" /></a></li>
+      <li><a href="../app/view1/view1.html"><img src="resources/pic/setting.png"  alt="设置" /></a></li>
+
+  </ul>
+  <ul class="menu">
+    <li>主页</li>
+    <li>直播</li>
+    <li>点播</li>
+    <li>设置</li>
+
+  </ul>
+
+</div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="resources/pic/Housebound-Banner-940x400.jpg" alt="First slide">
+      </div>
+      <div class="item">
+        <img src="resources/pic/Peanuts-Movie-Banner-940x400.jpg" alt="Second slide">
+      </div>
+      <div class="item">
+        <img src="resources/pic/Sonam-reveals-the-first-poster-of-her-up_151215120023567_940x400.jpg" alt="Third slide">
+      </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;</a>
+  </div>
+  <div class="btn-group btn-group-size">
+    <button type="button" class="btn btn-primary active" >C+</button>
+    <button type="button" class="btn btn-primary active">KMTV</button>
+    <button type="button" class="btn btn-primary active">Channel M HD</button>
+    <button type="button" class="btn btn-primary active">Nat Geo Wild HD</button>
+
+    <div class="btn-group btn-dd-size">
+      <button type="button" class="btn btn-primary dropdown-toggle"
+              data-toggle="dropdown">
+        more
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu dd-size" role="menu">
+        <li><a href="#">Star</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Star</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div class="nav-div" id="newest">
+  <nav class="navbar navbar-primary" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span style="color:white">Newest</span></a>
+    </div>
+  </nav>
+</div>
+
+  <div id="imgCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="row">
+          <div class="col-sm-6 col-md-3"><a href="#x" class="thumbnail"><img src="resources/pic/thumbnail.gif" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3"><a href="#x" class="thumbnail"><img src="resources/pic/thumbnail.gif" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAAAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3"><a href="#x" class="thumbnail"><img src="resources/pic/thumbnail.gif" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAAAAAAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3"><a class="thumbnail"><img src="resources/pic/thumbnail.gif" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAAAAAAAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+        </div>
+        <!--/row-->
+      </div>
+    <!--/item-->
+      <div class="item">
+        <div class="row">
+          <div class="col-sm-6 col-md-3"><a href="#x" class="thumbnail"><img src="http://www.gbtags.com/gb/networks/themes/img/mobilelogo.png" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAAAAAAAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3"><a href="#x" class="thumbnail"><img src="http://www.gbtags.com/gb/networks/themes/img/mobilelogo.png" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAAAAAAAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3"><a href="#x" class="thumbnail"><img src="http://www.gbtags.com/gb/networks/themes/img/mobilelogo.png" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAAAAAAAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3"><a href="#x" class="thumbnail"><img src="http://www.gbtags.com/gb/networks/themes/img/mobilelogo.png" alt="Image" class="img-responsive"></a>
+            <div class="caption">
+              <h3>AAAAAAAAAAAAA</h3>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+          </div>
+        </div>
+        <!--/row-->
+      </div>
+    <!--/item-->
+    </div>
+    <!--/carousel-inner-->
+    <a class="left carousel-control" href="#imgCarousel" data-slide="prev">‹</a>
+    <a class="right carousel-control" href="#imgCarousel" data-slide="next">›</a>
+  </div>
+
+  <div class="nav-div" id="hotest">
+    <nav class="navbar navbar-primary" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><span style="color:white">Hotest</span></a>
+      </div>
+    </nav>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-3 tb">
+      <div class="thumbnail">
+        <img src="resources/pic/thumbnai2.jpg"
+             alt="通用的占位符缩略图">
+      </div>
+      <div class="caption">
+        <h3>BBBBBBBBB</h3>
+        <p>bbbbbbbbbbbbbbbbbbbbbbbbb</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 tb">
+      <div class="thumbnail">
+        <img src="resources/pic/thumbnai2.jpg"
+             alt="通用的占位符缩略图">
+      </div>
+      <div class="caption">
+        <h3>BBBBBBBBB</h3>
+        <p>bbbbbbbbbbbbbbbbbbbbbbbbb</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 tb">
+      <div class="thumbnail">
+        <img src="resources/pic/thumbnai2.jpg"
+             alt="通用的占位符缩略图">
+      </div>
+      <div class="caption">
+        <h3>BBBBBBBBBBBBB</h3>
+        <p>bbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 tb">
+      <div class="thumbnail">
+        <img src="resources/pic/thumbnai2.jpg"
+             alt="通用的占位符缩略图">
+      </div>
+      <div class="caption">
+        <h3>BBBBBBBBB</h3>
+        <p>bbbbbbbbbbbbbbbbbbbbbbbbb</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- In production use:  -->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</div>
+</body>
+</html>
