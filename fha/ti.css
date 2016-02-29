@@ -1,0 +1,10 @@
+.row {
+	background-color: lightgrey;
+	height: 35px;
+}
+.pageTitle {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
