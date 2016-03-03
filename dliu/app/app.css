@@ -1,0 +1,92 @@
+/* app css stylesheet */
+@import url('//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css');
+html{font-size:10px}
+@media screen and (min-width:288px) and (max-width:320px){html{font-size:9px}}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}
+
+body{
+  text-align: center;
+  margin:0;
+  border:0;
+  padding:0;
+  outline: 0;
+  display:block;
+}
+div{
+  display:block;
+}
+.wrapper{
+  width: 100em;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 0 1rem;
+}
+.header{
+  margin-bottom: 1rem;
+  background-color: #285e8e;
+  border-color: #3276b1;
+}
+.headCarousel{
+  height: 60rem;
+}
+.centered-tabs {
+  text-align: center;
+}
+.centered-tabs .nav-tabs > li {
+  float: none !important; /* Avoid !important, added for SO snippet priority */
+}
+.centered-tabs .nav > li {
+  display: inline-block !important;
+}
+.menu{
+  list-style: none;
+}
+.menu>li{
+  width: 20rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+  background-color:#285e8e;
+  border-color: #3276b1;
+
+}
+.btn-group-size>button{
+  width: 25rem;
+  height:5rem;
+}
+.btn-dd-size>button,.dd-size>li{
+  width: 15rem;
+  height:5rem;
+}
+.nav-div{
+  margin-top: 1rem;
+}
+.navbar-primary {
+  height: 5rem;
+  color: #ffffff;
+  background-color:#285e8e;
+  border-color:  #3276b1;
+}
+.carousel-control {
+  padding-top:10%;
+  width:10%;
+}
+#fp{
+  position: relative;
+  left: 15rem;
+  margin-bottom: 2rem;
+}
+/*
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+*/

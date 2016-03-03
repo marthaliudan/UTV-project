@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+<link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body  ng-controller="loginCtrl">
+<div id="login">
+    <div>
+        <img src="resources/pic/logo.jpeg" style="width: 40rem;height: 40rem">
+        <div>
+            <label id="fp"><a href="#" class="rLink" tabindex="5"></a><span style="font-size: 3rem">Forget password</span></label>
+        </div>
+    </div>
+    <form class="form" ng-submit="login()">
+        <div class="form-group">
+            <input type="text" style="font-size:3rem;width: 50rem;height: 5rem" placeholder="CMHK Mobile No./Registered Email/Mobile Phone No." ng-model="user.account">
+        </div>
+        <div class="form-group">
+            <input type="password"  style="font-size:3rem;width: 50rem;height: 5rem" placeholder="Password" ng-model="user.password">
+        </div>
+        <div id="check" class="checkbox">
+            <label><input type="checkbox" style="width: 2.5rem;height: 2.5rem; margin-left: -3rem"><span style="font-size: 2.5rem;margin-left: 2rem">Remember me login</span></label>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary active" value="Login" style="font-size:3rem; width: 25rem; height: 5rem;">
+            <a href="index.html"><input type="button" class="btn btn-primary active" value="Guest" style="font-size:3rem; width: 25rem; height: 5rem";></a>
+        </div>
+
+        <label style="font-size: 2.5rem">Remark:CMHK user can login with their mobile number</label>
+        <label style="font-size: 2.5rem">directlt, Other user can login with Registered Email</label>
+        <label style="font-size: 2.5rem">or Smart TV DUID.</label>
+
+    </form>
+</div>
+</body>
+</html>
